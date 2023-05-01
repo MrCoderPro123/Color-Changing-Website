@@ -5,8 +5,8 @@ let changeColor = (color)=>{
 let changeImg = ()=>{
    let ci = document.getElementById('1img');
 //    ci.setAttribute('src','./whatsapp.png');
-    if(ci.src == "./whatsapp.png"){
-        ci.src = "./youtube.png";
+    if(ci.getAttribute("src") == "./whatsapp.png"){
+        ci.setAttribute("src", "./youtube.png");
     }else{
         ci.setAttribute('src','./whatsapp.png');
     }
